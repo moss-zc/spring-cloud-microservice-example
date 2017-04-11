@@ -2,7 +2,7 @@
 applications:
 - name: users-microservice
   host: users-microservice-${random-word}
-  memory: 512M
+  memory: 128M
   instances: 1
   timeout: 90
   path: target/users-microservice-0.1.0.jar
